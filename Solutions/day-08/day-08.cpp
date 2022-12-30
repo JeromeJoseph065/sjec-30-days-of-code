@@ -20,7 +20,7 @@ bool isPrime(ll num){
 
 int main(){
     ll m , n; cin >> m >> n;
-    while(!isPrime(m)) m++;
+    while(!isPrime(m) && m <= n) m++;
 
     ll lastPrime = m;
     for(ll i = lastPrime + 1; i <= n; i++){
