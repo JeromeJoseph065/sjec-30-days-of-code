@@ -19,7 +19,7 @@ int main(){
         if(isalpha(s[i])) 
             count++, mp[toupper(s[i])] += 1;
 
-    multiset<pair<char, ll>, decltype(cmp)> v(cmp);
+    set<pair<char, ll>, decltype(cmp)> v(cmp);
     for(auto it: mp) v.insert(make_pair(it.first, it.second));
 
     for(int i = 0; i < 5; i++){
