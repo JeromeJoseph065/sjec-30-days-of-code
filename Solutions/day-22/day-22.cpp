@@ -16,7 +16,7 @@ ll collatz(ll num){
 }
 
 int main(){
-    ll a, b, longest = 0, val = 0;
+    ll a, b, longest = 0, val = 1;
     cin >> a >> b;
     for(; a <= b; a++){
         if(collatz(a) > longest){
