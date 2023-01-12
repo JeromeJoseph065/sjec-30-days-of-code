@@ -1,5 +1,5 @@
 // Code to decrypt a cipher text based on a substitution cipher by using frequency analysis
-// Can decrypt a few words 
+// May decrypt a few words 
 #include <bits/stdc++.h>
 
 using namespace std;
